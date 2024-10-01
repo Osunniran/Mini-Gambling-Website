@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ayanfe Gamble Website</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Lucky Number Gambling Game</h1>
+        <input type="text" id="num1" placeholder="Input first number" min="1" max="100">
+        <input type="text" id="num2" placeholder="Input second number" min="1" max="100"><br>
+        <div class="computer-box">
+            <p id="randomNumber1"></p>
+            <p id="randomNumber2"></p>
+        </div>
+        <div class="result-container">
+            <p class="result"></p>
+        </div>
+        <button onclick="playBtn()">PLAY</button>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
